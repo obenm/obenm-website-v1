@@ -1,0 +1,83 @@
+body{
+background: #003859 !important;
+font-family: 'Work Sans', sans-serif;
+}
+
+header{
+  height: 15vh;
+  width: 100vw;
+  background: #004d7b;
+  right: 0;
+}
+
+.Header-Image{
+  height: 15vh;
+  float: right;
+}
+
+main{
+  max-height: 76vh;
+  width: 100vw;
+  background: #fff;
+}
+
+#Projects{
+  max-height: 76vh;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 0vh;
+  background: #fbfbfb;
+}
+
+#Acknowledgments{
+  height: 75vh;
+  width: 100%;
+  background: transparent;
+}
+
+#Footer{
+  height: 9vh;
+  width: 100%;
+  background: #333333;
+}
+
+.noSpace{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.Project-Image{
+  width: 100%;
+}
+
+.Project-Article{
+  border: 1px solid #ccc;
+  height: 24vh;
+  width: 100%;
+  margin-bottom: 1vh;
+}
+
+.cd-section {
+  height: 100vh;
+  background-color: #fbfbfb !important;
+}
+
+.cd-section:first-of-type > div {
+  background-color: #fbfbfb;
+}
+
+.cd-section:nth-of-type(2) > div {
+  background-color: #fbfbfb;
+}
+
+.Section-Container{
+  height: 100vh;
+  width: 100vh;
+  background-color: #fbfbfb !important;
+  display: inline-block;
+}
+
+.Section-Title{
+  color: #333 !important;
+  display: inline-block;
+}
